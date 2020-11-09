@@ -1,0 +1,136 @@
+/*-------------------------Common properties-------------------------*/
+
+.justify-content-between {
+  color: rgb(28, 28, 36);
+}
+details {
+  color: rgb(42, 173, 42);
+  font-size: 11px;
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+details:hover {
+  color: rgb(110, 247, 110);
+  font-size: 11px;
+  margin: 4px 0 0 0;
+}
+pre {
+  margin: 0;
+  font-weight: 550;
+  font-family: "Montserrat", sans-serif;
+}
+.head {
+  color: rgb(41, 168, 41);
+}
+.carBrocken {
+  color: red;
+}
+.form-group {
+  width: 122px;
+//   border: 1px solid white;
+//   background-color: rgb(5, 74, 97);
+  padding: 0 0 0 0;
+  margin: 0 2px 0 0;
+}
+.form-group input {
+  font-size: 14px;
+  height: 20px;
+}
+.form-group label {
+//   background-color: rgb(25, 136, 68);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  color: rgb(206, 202, 202);
+}
+.form-group label:hover {
+  color: limegreen;
+}
+.form-control {
+  margin: 0;
+  padding: 0 2px 0 2px;
+  width: 100%;
+  text-align: center;
+  background: rgb(172, 170, 170);
+}
+.form-control:hover {
+  background: rgb(248, 248, 248);
+  color: black;
+  font-weight: 500;
+}
+#date {
+  background-color: rgb(139, 236, 139);
+  width: 100%;
+  margin: 0 25px 0 0;
+  text-align: center;
+}
+#date:hover {
+  background-color: rgb(210, 241, 210);
+}
+#time {
+  width: 197px;
+  margin: 0 0px 0 0px;
+  padding: 0 0px 0 0px;
+  text-align: center;
+}
+#time label {
+  padding: 0 0 0 0;
+  margin: 0 0 0 -130px;
+}
+#date {
+  width: 120px;
+  font-size: 13px;
+  padding: 0;
+}
+#datetime-local {
+  width: 122px;
+}
+#datetime-local input {
+  font-size: 8.5px;
+  padding: 0;
+}
+#dateOfCarRegistration {
+  width: 90%;
+  margin: 0 32px 0 0;
+  text-align: center;
+}
+.important {
+  background-color: lightgreen;
+}
+#important:hover {
+  background-color: rgb(210, 241, 210);
+}
+#danger:hover {
+    background-color: rgb(226, 26, 26);
+  }
+.firebaseAuthConteinerRegister {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 45%);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+  box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+}
+.firebaseAuthConteinerRegister:hover {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+  box-shadow: 0px 0px 10px 3px rgba(68, 68, 68, 0.75);
+}
+.firebaseAuthConteinerLogin {
+    text-align: center;
+    color: rgb(238, 238, 238);
+    padding: 20px 0 20px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+    box-shadow: 0px 0px 10px 3px rgba(37, 37, 37, 0.75);
+  }
+  .firebaseAuthConteinerLogin:hover {
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+    box-shadow: 0px 0px 10px 3px rgba(68, 68, 68, 0.75);
+  }

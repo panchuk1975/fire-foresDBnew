@@ -1,0 +1,84 @@
+.helpContent {
+  font-size: 14px;
+  padding: 30px;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  user-select: none;
+  border: 1px solid #bfbfbf;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75); }
+
+.textConteiner {
+  color: black; }
+
+.helpContent header {
+  color: #afafaf;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  font-family: "Montserrat", sans-serif; }
+
+.helpDescription {
+  position: relative;
+  color: black;
+  text-align: justify;
+  text-indent: 40px; }
+
+.helpDescription a {
+  text-decoration: none;
+  color: #afafaf; }
+
+.helpStart a {
+  color: #7794e2; }
+
+.helpStart a:hover {
+  color: #05aa3c; }
+
+.helpDescriptionImg {
+  -webkit-transform: scale(1);
+  -webkit-transition-duration: 0.5s;
+  margin: 10px 20px 10px 0;
+  float: left; }
+
+.helpDescriptionImg:hover {
+  -webkit-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  -moz-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff; }
+
+.helpDescriptionImg:active {
+  -webkit-transform: translateX(265px) scale(2.5); }
+
+@media all and (max-width: 1360px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(290px) scale(2.3); } }
+
+@media all and (max-width: 1240px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(215px) scale(2); } }
+
+@media all and (max-width: 990px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(125px) scale(1.8); } }
+
+@media all and (max-width: 780px) {
+  .helpContent {
+    font-size: 11px; }
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(70px) scale(1.5); } }
+
+@media all and (max-width: 640px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(40px) scale(1.3); } }
+
+@media all and (max-width: 520px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(20px) scale(1.2); } }
+
+@media all and (max-width: 460px) {
+  .helpDescriptionImg:active {
+    -webkit-transform: translateX(15px) scale(1.1); } }
+
+.helpDescriptionImg.layer {
+  -webkit-transition-duration: 0.8s; }

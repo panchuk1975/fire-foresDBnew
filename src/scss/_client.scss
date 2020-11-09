@@ -1,0 +1,118 @@
+// NEW CLIENT FORM STYLE --------------------------------->
+.createClientBasis {
+  background: rgb(23, 19, 51);
+  margin: 5px 0 0 0;
+  padding: 0 10px 0 10px;
+  color: white;
+  -webkit-box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+  box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+}
+.clientMainForm {
+  margin: -5px 0 5px 0;
+  padding: 0 0px 0 0px;
+}
+.additionalInfo {
+  margin: 0 0px 10px 0px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  vertical-align: text-top;
+  background: rgb(173, 173, 173);
+}
+.additionalInfo:hover {
+  background: rgb(248, 248, 248);
+  color: black;
+  font-weight: 500;
+}
+.additionalInfoConteiner {
+  width: auto;
+  padding-bottom: 1px;
+}
+.createSaveClientBtn {
+  font-size: 15px;
+  width: 100%;
+  padding: 0;
+  color: black;
+  margin: -5px 0px 10px 0px;
+}
+//SET CLIENTS COMMON BLOCK STYLE -------------------------->
+.list-group {
+  border-radius: 0;
+}
+.clientInnerLi {
+  // client base
+  background: rgb(23, 19, 51);
+  padding: 0;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+  -moz-box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+  box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.99);
+}
+.clientInnerForm {
+  div {
+    font-size: 0;
+  }
+}
+.modifyClientBasis {
+  padding: 5px 5px 0px 5px;
+  .custom-select-sm {
+    width: 100%;
+  }
+}
+.clientTable {
+  color: rgb(216, 221, 226);
+  font-size: 16px;
+}
+.clientTable tbody tr:hover {
+  cursor: pointer;
+  color: rgb(228, 196, 12);
+}
+.clientTable tbody tr td {
+  border: 2px solid rgb(29, 31, 80);
+}
+.legalClients {
+  color: blue;
+}
+.unlegalClients {
+  color: rgb(25, 161, 20);
+}
+.deleteCarBtn {
+  font-size: 10px;
+  margin: 5px 0 0 0;
+  padding: 0 5px 0 5px;
+  color: #ff2400;
+}
+.deleteCarBtn:hover {
+  color: black;
+}
+.createExelBtn {
+  height: 20px;
+  //background: url("../pictures/cover.jpg");
+  background-size: cover;
+  background-position: top;
+  background-color: white;
+  width: 100%;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  padding: 0px 0 22px 0;
+  border: 1px solid rgb(141, 140, 140);
+  margin: 10px 2px 5px 2px;
+  // -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+  // -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+  // box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+  &:hover {
+    color: rgb(37, 233, 70);
+    border: 1px solid rgb(37, 233, 70);
+    // -webkit-box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+    // -moz-box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+    // box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+  }
+}
+.tableItemsAreClouse,
+.deleteButtonItemAreClouse {
+  display: none;
+}
+.negotiationsResult {
+  font-size: 10px;
+}

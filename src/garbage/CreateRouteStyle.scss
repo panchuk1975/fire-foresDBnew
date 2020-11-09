@@ -1,0 +1,43 @@
+/* -----------------------------Create Route Form------------------------------*/
+#CreateRouteStyle {
+  padding: 10px 10px 7px 14px;
+}
+#createRouteBtn {
+  font-size: 15px;
+  width: 100%;
+  margin: 10px 0px 0px 0;
+  padding: 0;
+  color: black;
+}
+.routeHead {
+  color: #539ab6;
+}
+#routeDate {
+  width: 90%;
+  margin: 0 33px 0 0;
+  text-align: center;
+  background-color: lightgreen;
+}
+#routeDate:hover {
+  background-color: rgb(235, 240, 235);
+}
+#dateOfCarRegistration {
+  width: 90%;
+  margin: 0 25px 0 0;
+  text-align: center;
+}
+#routeTime {
+  width: 182px;
+  margin: 0 0px 0 0px;
+  padding: 0 0px 0 0px;
+  text-align: center;
+}
+#routeTime label {
+  padding: 0 0 0 0;
+  margin: 0 0 0 -113px;
+}
+#datetime-local input{
+    width: 120px;
+    font-size: 8.5px;
+    padding: 0;
+}

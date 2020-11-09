@@ -1,0 +1,147 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+// SET BACKGROUND ----------------------->
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bg-fon {
+  background-color: white;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.bg-img {
+  padding: 10px 25px 10px 25px;
+  overflow: auto;
+  //background: url("../pictures/1-title.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: top left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+// SET COMMON FORM STYLE ----------------------->
+.form-group {
+  width: 250px; // 122 - MEDIA
+  margin: 0;
+}
+.form-group input {
+  font-size: 14px;
+  height: 25px;
+  border-radius: 0px;
+}
+.form-group label {
+  //   background-color: rgb(25, 136, 68);
+  font-size: 13px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  &:hover {
+    color: limegreen;
+  }
+}
+.form-control {
+  margin: 0;
+  padding: 0 2px 0 2px;
+  width: 100%;
+  text-align: center;
+  background: rgb(172, 170, 170);
+  &:hover {
+    background: rgb(248, 248, 248);
+    color: black;
+    font-weight: 500;
+  }
+}
+.custom-select-sm {
+  width: 100%;
+  color: rgb(73, 72, 72);
+  font-size: 12px;
+  height: 25px;
+  border-radius: 0px;
+}
+.custom-select-sm,
+.form-group input {
+  font-size: 12px;
+}
+@media all and (max-width: 870px) {
+  .form-group {
+    width: 134px; // 122
+  }
+  .custom-select-sm,
+  .form-group input {
+    font-size:8px;
+    height: 20px;
+  }
+  .custom-select-sm label,
+  .form-group label{
+    font-size: 10px;
+  }
+  .custom-select-sm {
+    margin: -5px 0 0 0;
+  }
+}
+
+// textarea {
+//   border-radius: 0;
+// }
+
+// pre {
+//   margin: 0;
+//   font-weight: 550;
+//   font-family: "Montserrat", sans-serif;
+// }
+
+// .carBrocken {
+//   color: red;
+// }
+// #date {
+//   background-color: rgb(139, 236, 139);
+//   width: 100%;
+//   margin: 0 25px 0 0;
+//   text-align: center;
+// }
+// #date:hover {
+//   background-color: rgb(210, 241, 210);
+// }
+// #time {
+//   width: 197px;
+//   margin: 0 0px 0 0px;
+//   padding: 0 0px 0 0px;
+//   text-align: center;
+// }
+// #time label {
+//   padding: 0 0 0 0;
+//   margin: 0 0 0 -130px;
+// }
+// #date {
+//   width: 120px;
+//   font-size: 13px;
+//   padding: 0;
+// }
+// #datetime-local {
+//   width: 122px;
+// }
+// #datetime-local input {
+//   font-size: 8.5px;
+//   padding: 0;
+// }
+// #dateOfCarRegistration {
+//   width: 90%;
+//   margin: 0 32px 0 0;
+//   text-align: center;
+// }
+// .important {
+//   background-color: lightgreen;
+// }
+// .important:hover {
+//   background-color: rgb(210, 241, 210);
+// }
+// #danger:hover {
+//   background-color: rgb(226, 26, 26);
+// }

@@ -1,0 +1,73 @@
+/* -----------------------------Create Car Form------------------------------*/
+.createCarBasis {
+  margin: 0px 0 0px 0;
+  padding: 0 0px 0 0px;
+  background: url("../pictures/cover.jpg");
+  border-radius: 5px;
+  background-position: top;
+  background-size: cover;
+}
+#createCarHr {
+  margin: 0px 0 20px 0;
+  padding: 0 0 0 0;
+}
+#createCarBtn,
+#saveCarBtn {
+  font-size: 15px;
+  width: 100%;
+  padding: 0;
+  color: black;
+}
+#createCarBtn {
+  margin: -5px 15px 10px 15px;
+}
+#saveCarBtn {
+  font-size: 15px;
+  width: 100%;
+  margin: -5px 35px 5px 30px;
+  color: black;
+}
+#carMainForm {
+  margin: -10px 0 15px 0;
+  padding: 0 13px 0 16px;
+}
+#serviceabilityCarReason {
+  margin: 0 0px 0 0px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  vertical-align: text-top;
+  background: rgb(173, 173, 173);
+}
+#serviceabilityCarReason:hover {
+  background: rgb(248, 248, 248);
+  color: black;
+  font-weight: 500;
+}
+#serviceabilityCarReasonConteiner{
+    width: auto;
+}
+.custom-select-sm {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 15px;
+  color: rgb(73, 72, 72);
+  font-size: 12px;
+  font-weight: 700;
+  height: 25px;
+  margin: -4px 46px 0 0;
+}
+#dateOfObjRegistration {
+    padding-right: 0px;
+    font-size: 8px;
+    width: 120px;
+    text-align: center;
+  }
+/* -----------------------------Modify Car Form------------------------------*/
+#modifyCarForm {
+  margin: -5px 0 15px 0;
+  padding: 0 15px 0 30px;
+}
+.addingObjTable{
+    margin: 0 0 0 25px;
+}
